@@ -9,12 +9,13 @@ from the X-ray images.
 1. Sorder CRANEXr Excel Ceph: All cephalograms were acquired in TIFF format with a Soredex CRANEXr Excel Ceph
 machine (Tuusula, Finland) using Soredex SorCom software (3.1.5, version 2.0). The image resolution was 1935×2400 pixels with a pixel spacing of 0.1mm/pixel.
 
-2. Sordex Cranex D Ceph: The X-ray images were acquired in PNG format with a Soredex Cranex D Ceph machine (Tuusula, Finland) using CLINIVIEW software (version 10.2.6.4). The image resolution was2880×2304 pixels with a pixel spacing of 0.096mm/pixel.
+2. Sordex Cranex D Ceph: The X-ray images were acquired in PNG format with a Soredex Cranex D Ceph machine (Tuusula, Finland) using CLINIVIEW software (version 10.2.6.4). The image resolution was 2880×2304 pixels with a pixel spacing of 0.096mm/pixel.
 
 3. Planmeca ProMax: These X-ray images were acquired by Planmeca ProMax 3D machine (Finland) and Planmeca Romexis software. The average resolution size of these images from this machine is 2089 × 1937 pixels, while the pixel spacing is about 0.125 mm/pixel.
 
 ### Details on the Landmark Annotations
-[<img src="Selection_628.png" width="7500px" align="left" />]
+<img src="lm38.png" width="700px" align="center" />
+
 1.  Sella, S, 蝶鞍點：蝶鞍影像的中心
 2.  Nasion, N, 鼻根點：鼻額縫的最前點
 3.  Orbitale, O/Or, 眶點：眶下緣的最低點
@@ -59,16 +60,11 @@ machine (Tuusula, Finland) using Soredex SorCom software (3.1.5, version 2.0). T
 ### Reference
 If you are using this dataset or some part of it, please cite the following article:
 
-● [A. Saha, J. J. Twilt, J. S. Bosma, B. van Ginneken, D. Yakar, M. Elschot, J. Veltman, J. J. Fütterer, M. de Rooij, H. Huisman, "Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: The PI-CAI Challenge (Study Protocol)", DOI: 10.5281/zenodo.6667655](https://zenodo.org/record/6667655)
+
 
 **BibTeX:**
 ```
-@ARTICLE{PICAI_BIAS,
-    author = {Anindo Saha, Jasper J. Twilt, Joeran S. Bosma, Bram van Ginneken, Derya Yakar, Mattijs Elschot, Jeroen Veltman, Jurgen Fütterer, Maarten de Rooij, Henkjan Huisman},
-    title  = {{Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: The PI-CAI Challenge (Study Protocol)}}, 
-    year   = {2022},
-    doi    = {10.5281/zenodo.6667655}
-}
+
 ```
 
 ### License
@@ -77,4 +73,4 @@ If you are using this dataset or some part of it, please cite the following arti
 ### Managed By
 
 ### Contact Information
-- Anindo Saha: Anindya.Shaha@radboudumc.nl
+- 
