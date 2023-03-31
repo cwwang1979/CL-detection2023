@@ -14,7 +14,7 @@ machine (Tuusula, Finland) using Soredex SorCom software (3.1.5, version 2.0). T
 3. Planmeca ProMax: These X-ray images were acquired by Planmeca ProMax 3D machine (Finland) and Planmeca Romexis software. The average resolution size of these images from this machine is 2089 × 1937 pixels, while the pixel spacing is about 0.125 mm/pixel.
 
 ### Details on the Landmark Annotations
-[<img src="ani.gif" width="470px" align="left" />]
+[<img src="Selection_628.png" width="7500px" align="left" />]
 1.  Sella, S, 蝶鞍點：蝶鞍影像的中心
 2.  Nasion, N, 鼻根點：鼻額縫的最前點
 3.  Orbitale, O/Or, 眶點：眶下緣的最低點
