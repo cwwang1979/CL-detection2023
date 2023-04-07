@@ -11,7 +11,7 @@ machine (Tuusula, Finland) using Soredex SorCom software (3.1.5, version 2.0). T
 
 2. Sordex Cranex D Ceph: The X-ray images were acquired in PNG format with a Soredex Cranex D Ceph machine (Tuusula, Finland) using CLINIVIEW software (version 10.2.6.4). The image resolution was 2880×2304 pixels with a pixel spacing of 0.096mm/pixel.
 
-3. Planmeca ProMax: These X-ray images were acquired by Planmeca ProMax 3D machine (Finland) and Planmeca Romexis software. The average resolution size of these images from this machine is 2089 × 1937 pixels, while the pixel spacing is about 0.125 mm/pixel.
+3. Planmeca ProMax: These X-ray images were acquired by Planmeca ProMax 3D machine (Finland) and Planmeca Romexis software. The average resolution size of these images from this machine is 2089×1937 pixels, while the pixel spacing is about 0.125mm/pixel.
 
 ### Details on the Landmark Annotations
 <img src="lm38.png" width="700px" align="center" />
