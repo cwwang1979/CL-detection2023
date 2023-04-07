@@ -70,7 +70,6 @@ If you are using this dataset or some part of it, please cite the following arti
 ### License
 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
-### Managed By
-
 ### Contact Information
-- 
+- Prof. Ching-Wei Wang : cweiwang@mail.ntust.edu.tw ; cwwang1979@gmail.com
+- Mr. Hikam Muzakky : m11123801@mail.ntust.edu.tw
