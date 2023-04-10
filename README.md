@@ -57,6 +57,52 @@ machine (Tuusula, Finland) using Soredex SorCom software (3.1.5, version 2.0). T
 
 ### An overview of the structure of this example
 
+```bash
+TRAIN_DATA_DIRECTORY/
+	├── images
+    		├── 001.bmp
+    		├── 002.bmp
+    		└── ...
+	├── labels
+    		├── 001_landmark.txt
+    		├── 002_landmark.txt
+    		└── ...
+```
+
+MMDETECTION
+
+```bash
+TRAIN_DATA_DIRECTORY/
+	├── images
+    		├── 001.bmp
+    		├── 002.bmp
+    		└── ...
+	├── labels
+    		├── 001_landmark.txt
+    		├── 002_landmark.txt
+    		└── ...
+  ├── labels.txt
+  ├── txt2coco.py
+
+        
+TRAIN_DATA_DIRECTORY/
+	├── images
+    		├── 001.bmp
+    		├── 002.bmp
+    		└── ...
+	├── labels
+    		├── 001_landmark.txt
+    		├── 002_landmark.txt
+    		└── ...
+        └── labels.txt
+  ├── xml
+    		├── 001.xml
+    		├── 002.xml
+    		└── ...
+        └── trainset.json
+      
+```
+
 This example is a RetinaNet implementation, extended by a domain-adversarial branch. 
 (explain in detail step by step)
 
