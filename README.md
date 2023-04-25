@@ -84,6 +84,11 @@ one=stacked_img[:,:,imgid-1]
 ```
 
 ```bash
+import SimpleITK as sitk
+
+pth='./'train_stack.mha'
+stacked_img = sitk.ReadImage(pth)
+
 #access with numpy 
 image_data = SimpleITK.GetArrayFromImage(stacked_img)
 
