@@ -1,7 +1,7 @@
 # Annotations for the [CL-Detection 2023 Challenge](https://cl-detection2023.grand-challenge.org/): Training Dataset
 
 ### Imaging Dataset
-To download the associated imaging data, visit: [zenodo link](zenodo link).
+To download the associated imaging data, visit: [zenodo link](https://zenodo.org/deposit/7787671#).
 Note, the **Training Dataset** of the [CL-Detection 2023 Challenge](https://cl-detection2023.grand-challenge.org/) includes 600 X-ray images from 3 medical centers with multi-center, multi-vendor, and more-landmarks. X-ray images were acquired from systems of different vendors such as Sordex CRANEXr Excel Ceph, Sordex Cranex D Ceph and Planmeca ProMax. An inhouse developed software was used to develop the labels of the landmarks
 from the X-ray images.
 
