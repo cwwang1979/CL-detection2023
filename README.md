@@ -93,7 +93,8 @@ stacked_img = sitk.ReadImage(pth)
 image_data = SimpleITK.GetArrayFromImage(stacked_img)
 
 # Load individual image from image stack
-image = np.array(image_data[id,:,:,:])
+img_id=1
+image = np.array(image_data[img_id,:,:,:])
 ```
 
 
