@@ -55,19 +55,42 @@ machine (Tuusula, Finland) using Soredex SorCom software (3.1.5, version 2.0). T
 37. Upper Molar, U6/UMo, 上磨牙點：上第一磨牙近中接觸點；若常重影需取中點
 38. Lower Molar, L6/LMo, 下磨牙點：下第一磨牙近中接觸點；若常重影需取中點
 
-### An overview of the structure of this example
+### An overview of the structure training dataset
 
 ```bash
 TRAIN_DATA_DIRECTORY/
 	├── images
-    		├── 001.bmp
-    		├── 002.bmp
-    		└── ...
+    		├── train-stack.mha
 	├── labels
-    		├── 001_landmark.txt
-    		├── 002_landmark.txt
-    		└── ...
+		├── train-gt.json
+    		└── individual image label.zip
+	
 ```
+
+To open the image you can example as follows. (according to the grand-challenge.org support participant to follow the container for algorithm as provided by [evalutils]([https://cl-detection2023.grand-challenge.org/](https://comic.github.io/evalutils/))) 
+
+
+```bash
+TRAIN_DATA_DIRECTORY/
+	├── images
+    		├── train-stack.mha
+	├── labels
+		├── train-gt.json
+    		└── individual image label.zip
+	
+```
+
+
+
+
+Two groundtruth
+
+
+
+
+
+
+
 
 MMDETECTION
 
