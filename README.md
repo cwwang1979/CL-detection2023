@@ -71,16 +71,25 @@ To open the image you can example as follows. (according to the grand-challenge.
 
 
 ```bash
-TRAIN_DATA_DIRECTORY/
-	├── images
-    		├── train-stack.mha
-	├── labels
-		├── train-gt.json
-    		└── individual image label.zip
-	
+import SimpleITK as sitk
+
+pth='./'train_stack.mha'
+stacked_img = sitk.ReadImage(pth)
+
+#access the first image
+img_id=1
+
+one=stacked_img[:,:,imgid-1]
+
 ```
 
+```bash
+#access with numpy 
+image_data = SimpleITK.GetArrayFromImage(stacked_img)
 
+# Load individual image from image stack
+image = np.array(image_data[id,:,:,:])
+```
 
 
 Two groundtruth
