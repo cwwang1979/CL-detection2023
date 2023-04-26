@@ -15,7 +15,7 @@ CL-Detection 2023 Challenge utilized the ITK (.mha) format of stack image as tra
 TRAIN_DATA_DIRECTORY/
 	├── images #Download from zenodo
     		├── train-stack.mha
-	└── labels #Download from https://github.com/cwwang1979/DL-detection2023
+	└── labels #Download from https://github.com/cwwang1979/CL-detection2023
 		└── train-gt.json
     		
 ```
