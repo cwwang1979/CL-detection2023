@@ -67,7 +67,7 @@ TRAIN_DATA_DIRECTORY/
 	
 ```
 
-To open the image you can example as follows. (according to the grand-challenge.org support participant to follow the container for algorithm as provided by [evalutils]([https://cl-detection2023.grand-challenge.org/](https://comic.github.io/evalutils/))) 
+To open the image from stack you can utilize [SimpleITK](https://simpleitk.readthedocs.io/en/master/) as follows. (according to the grand-challenge.org support participant to follow the container for algorithm as provided by [evalutils]([https://cl-detection2023.grand-challenge.org/](https://comic.github.io/evalutils/))) 
 
 
 ```bash
@@ -98,7 +98,32 @@ image = np.array(image_data[img_id,:,:,:])
 ```
 
 
-Two groundtruth
+Json file groundtruth
+
+```bash
+{
+    "name": "Orthodontic landmarks",
+    "type": "Multiple points",
+    "points": [
+        {
+            "name": 1,
+            "point": [
+                835,
+                996,
+                1
+            ],
+            "scale": "0.1"
+        },
+        {
+            "name": 2,
+            "point": [
+                1473,
+                1029,
+                1
+            ],
+            "scale": "0.1"
+        },
+```
 
 
 
