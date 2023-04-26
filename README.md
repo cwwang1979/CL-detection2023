@@ -8,12 +8,11 @@ Note, the **Dataset** of the [CL-Detection 2023 Challenge](https://cl-detection2
 
 ```bash
 TRAIN_DATA_DIRECTORY/
-	├── images
+	├── images #Download from zenodo
     		├── train-stack.mha
-	├── labels
-		├── train-gt.json
-    		└── individual image label.zip
-	
+	└── labels #Download from https://github.com/cwwang1979/DL-detection2023
+		└── train-gt.json
+    		
 ```
 
 To open the image from stack you can utilize [SimpleITK](https://simpleitk.readthedocs.io/en/master/) as follows. (according to the grand-challenge.org support participant to follow the container for algorithm as provided by [evalutils]([https://cl-detection2023.grand-challenge.org/](https://comic.github.io/evalutils/))) 
