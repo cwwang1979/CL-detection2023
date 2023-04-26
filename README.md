@@ -4,6 +4,11 @@
 To download the associated imaging data, visit: [zenodo link](https://zenodo.org/deposit/7787671#).
 Note, the **Dataset** of the [CL-Detection 2023 Challenge](https://cl-detection2023.grand-challenge.org/) includes 600 X-ray images (400 for trianing, 50 for validation, 150 for testing) from 3 medical centers. X-ray images were acquired from systems of different vendors such as Sordex CRANEXr Excel Ceph, Sordex Cranex D Ceph and Planmeca ProMax. 
 
+CL-Detection 2023 Challenge utilized the ITK (.mha) format of stack image as training. The 3D image is a cube where:
+- x is the maximum width of all the contained images
+- y is the maximum height of all the contained images
+- z indicates which image it actually pertains
+
 ### An overview of the structure training dataset
 
 ```bash
