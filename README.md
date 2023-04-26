@@ -123,6 +123,21 @@ Json file groundtruth
             ],
             "scale": "0.1"
         },
+	
+.
+.
+.
+        {
+            "name": 38,
+            "point": [
+                1991,
+                1498,
+                400
+            ],
+            "scale": "0.096"
+        }
+    ]
+}
 ```
 
 txt file groundtruth (individual image)
