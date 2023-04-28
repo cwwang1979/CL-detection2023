@@ -51,7 +51,7 @@ image = np.array(image_data[img_id,:,:,:])
 ```
 
 
-Json file groundtruth
+Json file groundtruth format. Dictionary "point" consist of [x,y,z], whereas x is x-coordinate of annotation, y is y-coordinate of annotation, and z indicates the image id or order (start from 1). While dictionary "point" is the constant to convert the image into the physical-image in mm, for example, if a reference landmark point has "scale" = 0.1, it shows each pixel equal to 0.1 mm.  
 
 ```bash
 {
