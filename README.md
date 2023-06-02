@@ -20,7 +20,29 @@ TRAIN_DATA_DIRECTORY/
     		
 ```
 
-We provide you with a training set of pre-processing code to convert stack images to individual images, remove zero padding from individual images, and save them in your local directory. Please kindly check the code [HERE]() 
+We provide you with a training set of pre-processing code to convert stack images to individual images, remove zero padding from individual images, and save them in your local directory as below tree directory structure. Please kindly check the code [HERE]() 
+
+
+```bash
+PRE_PROCESS_TRAIN_SET/
+	├── pre_processing_train_stack.py #Pre-process code 
+	├── train-stack.mha #Training stacked images from zenodo
+	├── unprocessed_images #Individual images with zero padding
+		├── 0.bmp 
+		.
+		.
+		.
+		└── 399.bmp
+    
+	├── processed_images #Processed images without zero padding
+		├── 0.bmp 
+		.
+		.
+		.
+		└── 399.bmp
+    		
+```
+
 
 Or you can access the image from stack directly utilizing [SimpleITK](https://simpleitk.readthedocs.io/en/master/) as follows. (according to the grand-challenge.org support participant to follow the container for algorithm as provided by [evalutils]([https://cl-detection2023.grand-challenge.org/](https://comic.github.io/evalutils/))) 
 
