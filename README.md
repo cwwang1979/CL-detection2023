@@ -20,7 +20,7 @@ TRAIN_DATA_DIRECTORY/
     		
 ```
 
-We provide you with a training set of pre-processing code to convert stack images to individual images, remove zero padding from individual images, and save them in your local directory as below tree directory structure. Please kindly check the code [HERE]() 
+We provide you with a training set of pre-processing code to convert stack images to individual images, remove zero padding from individual images, and save them in your local directory as below tree directory structure. Please kindly check the code as follows [pre_processing_train_stack.py](pre_processing_train_stack.py).
 
 
 ```bash
