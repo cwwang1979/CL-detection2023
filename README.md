@@ -20,7 +20,9 @@ TRAIN_DATA_DIRECTORY/
     		
 ```
 
-To open the image from stack you can utilize [SimpleITK](https://simpleitk.readthedocs.io/en/master/) as follows. (according to the grand-challenge.org support participant to follow the container for algorithm as provided by [evalutils]([https://cl-detection2023.grand-challenge.org/](https://comic.github.io/evalutils/))) 
+We provide you with a training set of pre-processing code to convert stack images to individual images, remove zero padding from individual images, and save them in your local directory. Please kindly check the code [HERE]() 
+
+Or you can access the image from stack directly utilizing [SimpleITK](https://simpleitk.readthedocs.io/en/master/) as follows. (according to the grand-challenge.org support participant to follow the container for algorithm as provided by [evalutils]([https://cl-detection2023.grand-challenge.org/](https://comic.github.io/evalutils/))) 
 
 
 ```bash
